@@ -6,8 +6,8 @@ import (
 )
 
 func TestSoalNo01(t *testing.T) {
-	result := SoalNo1(10)
+	result := SoalNo1(9)
 
-	assert.Equal(t, len(result), 10)
-	assert.Equal(t, result[9][9], 19)
+	assert.Equal(t, len(result), 9)
+	assert.Equal(t, result[8][8], 19)
 }
